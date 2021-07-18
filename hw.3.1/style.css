@@ -1,0 +1,26 @@
+.box {
+  max-width: 500px;
+  text-align: justify;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left img {
+  width: 220px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 6px;
+}
+
+.float-right img {
+  width: 160px;
+  height: 90px;
+  margin-top: 20px;
+  margin-left: 20px;
+}

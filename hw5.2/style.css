@@ -1,0 +1,48 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 400px;
+  height: 100px;
+  overflow: hidden;
+  background: none;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.holder :nth-child(1) {
+  background-color: #fd644d;
+  order: 1;
+  flex: 2 1 200px;
+}
+
+.holder :nth-child(2) {
+  background-color: #4983b2;
+  order: 4;
+  flex-grow: 1;
+}
+
+.holder :nth-child(3) {
+  background-color: #663797;
+  order: 3;
+  flex-grow: 1;
+}
+
+.holder :nth-child(4) {
+  background-color: #0e7f12;
+  order: 5;
+  flex-grow: 1;
+}
+
+.holder :nth-child(5) {
+  background-color: #fda429;
+  order: 2;
+  flex: 2 1 200px;
+}

@@ -1,0 +1,55 @@
+.box {
+  background: #0d5825;
+  width: 600px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.here {
+  padding-top: 25px;
+  padding-left: 80px;
+  color: white;
+}
+
+.quote {
+  display: block;
+  font-size: 25px;
+}
+
+.italic {
+  font-size: 20px;
+  padding-left: 25%;
+}
+
+.cards img {
+  width: 150px;
+  height: 200px;
+}
+
+.cards :nth-child(1) {
+  transform: translate(100px, 100px) rotate(-20deg);
+}
+
+.cards :nth-child(1):hover {
+  transform: translate(100px, 90px) rotate(-20deg);
+  transition-duration: 0.5s;
+}
+
+.cards :nth-child(2) {
+  transform: translate(-5px, 110px) rotate(-7deg);
+}
+
+.cards :nth-child(2):hover {
+  transform: translate(-5px, 100px) rotate(-7deg);
+  transition-duration: 0.5s;
+}
+
+.cards :nth-child(3) {
+  transform: translate(-110px, 130px) rotate(10deg);
+}
+
+.cards :nth-child(3):hover {
+  transform: translate(-110px, 120px) rotate(10deg);
+  transition-duration: 0.5s;
+}
